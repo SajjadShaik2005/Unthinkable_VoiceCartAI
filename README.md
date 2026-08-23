@@ -12,7 +12,7 @@
 
 ---
 
-## ⚡ Brief Write-Up of Approach (under 200 words)
+## ⚡ Brief Write-Up of Approach
 
 > **Problem-Solving & Architectural Approach**
 >
