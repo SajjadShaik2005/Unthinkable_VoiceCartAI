@@ -1,16 +1,24 @@
 # 🎙️ VoiceCart AI - Voice Command Shopping Assistant
+### Built for Unthinkable Solutions
 
-**VoiceCart AI** is an intelligent, voice-activated shopping list manager with real-time natural language processing (NLP), product & seasonal suggestions, smart substitute discovery, budget estimation, and multilingual Web Speech API integration.
+**VoiceCart AI** is an intelligent, voice-activated shopping list manager with real-time natural language processing (NLP), product & seasonal recommendations, smart substitute discovery, budget estimation, and multilingual Web Speech API integration.
 
 ---
 
-## ⚡ Brief Write-Up of Approach 
+## 🔗 Live Application & Links
+
+- **🌐 Live Demo URL**: [https://unthinkable-voice-cart-ai.vercel.app](https://unthinkable-voice-cart-ai.vercel.app)
+- **💻 GitHub Repository**: [https://github.com/SajjadShaik2005/Unthinkable_VoiceCartAI](https://github.com/SajjadShaik2005/Unthinkable_VoiceCartAI)
+
+---
+
+## ⚡ Brief Write-Up of Approach (under 200 words)
 
 > **Problem-Solving & Architectural Approach**
 >
-> To deliver a seamless voice-first shopping assistant without external server delays, i have built a client-side architecture combining browser **Web Speech API**, custom multi-lingual **NLP Engine**, and local reactive state management.
+> Developed for **Unthinkable Solutions**, this application delivers a seamless voice-first shopping assistant without external server latency. We built a client-side architecture combining browser **Web Speech API**, a custom multi-lingual **NLP Engine**, and local reactive state management.
 >
-> 1. **Voice Recognition & Audio Feedback**: We wrapped Web Speech API with fallback simulation tools to guarantee 100% usability across all browsers. Speech synthesis (`window.speechSynthesis`) provides real-time spoken confirmations.
+> 1. **Voice Recognition & Audio Feedback**: Wrapped Web Speech API with fallback simulation tools to guarantee 100% usability across all browsers. Speech synthesis (`window.speechSynthesis`) provides real-time spoken confirmations.
 > 2. **NLP Engine**: A lightweight entity/intent extractor parses natural commands (e.g. *"Add 2 bottles of almond milk under $5"*), automatically extracting action, quantity, units, max price caps, organic preferences, and categories.
 > 3. **Smart Suggestions**: Designed a tri-modal engine predicting low-stock items based on consumption cadence, highlighting seasonal produce discounts, and providing alternative substitutes (e.g. almond milk for dairy).
 > 4. **Modern UI & UX**: Built with glassmorphism, animated microphone audio waveforms, budget subtotal calculations, category grouping, and JSON/TXT export options.
@@ -67,18 +75,10 @@ The application will run at `http://localhost:5173`.
 npm run build
 ```
 
-The compiled production bundle will be generated in the `dist/` directory.
-
 ---
 
-## 🌐 Deployment Instructions
+## 🌐 Hosting & Deployment
 
-### Deploy to Vercel / Netlify
-1. Connect your GitHub repository to Vercel or Netlify.
-2. Set Build Command to: `npm run build`
-3. Set Output Directory to: `dist`
-
-### Deploy to AWS S3 / CloudFront
-```bash
-aws s3 sync dist/ s3://your-bucket-name --delete
-```
+Deployed on **Vercel** with automatic continuous deployment from GitHub:
+- **Live Site**: [https://unthinkable-voice-cart-ai.vercel.app](https://unthinkable-voice-cart-ai.vercel.app)
+- **Deployment Platform**: Vercel Global Edge Network
