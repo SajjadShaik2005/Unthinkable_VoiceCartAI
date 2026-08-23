@@ -4,7 +4,7 @@
 **VoiceCart AI** is an intelligent, voice-activated shopping list manager with real-time natural language processing (NLP), product & seasonal recommendations, smart substitute discovery, budget estimation, and multilingual Web Speech API integration.
 
 ---
-
+ 
 ## 🔗 Live Application & Links
 
 - **🌐 Live Demo URL**: [https://unthinkable-voice-cart-ai.vercel.app](https://unthinkable-voice-cart-ai.vercel.app)
