@@ -4,11 +4,11 @@
 
 ---
 
-## ⚡ Brief Write-Up of Approach (under 200 words)
+## ⚡ Brief Write-Up of Approach 
 
 > **Problem-Solving & Architectural Approach**
 >
-> To deliver a seamless voice-first shopping assistant without external server delays, we built a client-side architecture combining browser **Web Speech API**, custom multi-lingual **NLP Engine**, and local reactive state management.
+> To deliver a seamless voice-first shopping assistant without external server delays, i have built a client-side architecture combining browser **Web Speech API**, custom multi-lingual **NLP Engine**, and local reactive state management.
 >
 > 1. **Voice Recognition & Audio Feedback**: We wrapped Web Speech API with fallback simulation tools to guarantee 100% usability across all browsers. Speech synthesis (`window.speechSynthesis`) provides real-time spoken confirmations.
 > 2. **NLP Engine**: A lightweight entity/intent extractor parses natural commands (e.g. *"Add 2 bottles of almond milk under $5"*), automatically extracting action, quantity, units, max price caps, organic preferences, and categories.
